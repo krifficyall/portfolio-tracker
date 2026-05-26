@@ -50,7 +50,7 @@ for s in portfolio:
 
 total_gain = total_value - total_invested
 
-col1, col2, col3 = st.coulumns(3)
+col1, col2, col3 = st.columns(3)
 col1.metric("Total Value",     f"${total_value:.2f}")
 col2.metric("Total Invested",  f"${total_invested:.2f}")
 col3.metric("Total Gain/Loss", f"${total_gain:.2f}",
