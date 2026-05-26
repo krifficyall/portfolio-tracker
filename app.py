@@ -2,8 +2,6 @@ import yfinance as yf
 import pandas as pd
 import streamlit as st
 
-from tracker import portfolio, shares
-
 #PAGE SETUP YALL
 
 st.set_page_config(page_title="Portfolio Tracker", layout="wide")
