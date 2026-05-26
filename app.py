@@ -41,7 +41,7 @@ for symbol in portfolio:
 
 df = pd.DataFrame(data)
 
-total_value = df["value ($)"].sum()
+total_value = df["Value ($)"].sum()
 total_invested = 0
 
 for s in portfolio:
